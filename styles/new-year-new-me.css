@@ -1,13 +1,13 @@
-/* shared amoung all */
+/* shared among all */
 /* banner related styles */
 .banner{
- background-image: url('../resources/Banner\ Image.png');
+ background-image:linear-gradient(black,transparent),url('../resources/Banner\ Image.png');
  background-repeat: no-repeat;
  height: 600px;
- margin: 110px;
+ margin: 120px;
 }
-.banner-text{
-    color: rgb(255, 251, 242);
+.text{
+    color: rgb(240, 235, 224);
     text-align: center;
     padding: 100px 10px;
 }
@@ -39,3 +39,24 @@
     display: block;
     
 }
+/* midnight party section */
+.midnight-party{
+    background-image:linear-gradient(black,transparent), url('../resources/Vectorrr.png'); 
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 120px;
+}
+.midnight-party-text{
+    color: rgb(240, 235, 224);
+    text-align: left;
+    padding: 100px;
+}
+.welcome{
+    font-size: 88px;
+    margin-bottom: 8px;
+}
+.party-button{
+    background: none;
+    color: rgb(240, 235, 224);
+}
+
