@@ -1,6 +1,21 @@
+/* shared amoung all */
 /* banner related styles */
+.banner{
+ background-image: url('../resources/Banner\ Image.png');
+ background-repeat: no-repeat;
+ height: 600px;
+ margin: 110px;
+}
+.banner-text{
+    color: rgb(255, 251, 242);
+    text-align: center;
+    padding: 100px 10px;
+}
+.new-year-party{
+    font-size: 72px;
+}
 /* offer section */
-.text {
+.text-center {
     text-align: center;
 }
 .off{
