@@ -98,6 +98,10 @@
     padding: 15px 35px;
     margin-left: auto;
 }
+.red{
+    color: #F00;
+    font-size: 48px;
+}
 /* coming soon */
 .coming-soon{
     display: flex;
@@ -106,10 +110,60 @@
 
 .coming-soon-red{
     font-size: 48px;
-    color: #F00;
 }
 .img{
     background-image: url("../resources/Group\ 44.png");
     background-repeat: no-repeat;
     border: 50px solid #ffffff;
+}
+/* holiday sale section */
+.holiday-sele{
+    text-align: center;
+}
+.holiday{
+    color: #F00;
+}
+.holiday-sele-tittle{
+    font-size: 88px;
+}
+
+/* for the best gift section */
+.the-best-gift{
+    margin: 120px;
+}
+.the-best-gift-text{
+    margin-bottom: 50px;
+}
+/* for subscribe section */
+.subscribe{
+    background-color: rgb(252, 221, 227);
+    text-align: center;
+    height: 550px;
+    margin: 120px;
+    padding: 100px;
+}
+.for-subscribing{
+    border-radius: 20px;
+    background:rgb(255, 255, 255);
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+/* for footer */
+footer{
+    background-color: black;
+    height: 800px;
+}
+.white{
+    color: #ffffff;
+    padding: 100px;
+}
+.footer-img{
+    text-align: center;
+    padding: 20px;
+}
+.button{
+margin-left: 100px;
+margin-bottom: 40px;
 }
