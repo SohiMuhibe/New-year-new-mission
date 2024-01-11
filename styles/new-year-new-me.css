@@ -1,62 +1,115 @@
 /* shared among all */
 /* banner related styles */
-.banner{
- background-image:linear-gradient(black,transparent),url('../resources/Banner\ Image.png');
- background-repeat: no-repeat;
- height: 600px;
- margin: 120px;
+.banner {
+    background-image: linear-gradient(black, transparent), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 120px;
 }
-.text{
+
+.text {
     color: rgb(240, 235, 224);
     text-align: center;
     padding: 100px 10px;
 }
-.new-year-party{
+
+.new-year-party {
     font-size: 72px;
 }
+
 /* offer section */
 .text-center {
     text-align: center;
 }
-.off{
+
+.off {
     color: #F00;
     font-size: 88px;
     margin-bottom: 8px;
 }
-.deal{   
+
+.deal {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 2px;
 }
-.catagories{
+
+.catagories {
     margin-bottom: 30px;
 }
+
 .new-year-img {
     margin-left: auto;
     margin-right: auto;
     height: 500px;
     display: block;
-    
+
 }
+
 /* midnight party section */
-.midnight-party{
-    background-image:linear-gradient(black,transparent), url('../resources/Vectorrr.png'); 
+.midnight-party {
+    background-image: linear-gradient(black, transparent), url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
     height: 600px;
     margin: 120px;
 }
-.midnight-party-text{
+
+.midnight-party-text {
     color: rgb(240, 235, 224);
     text-align: left;
-    padding: 100px;
+    padding: 150px;
 }
-.welcome{
+
+.welcome {
     font-size: 88px;
     margin-bottom: 8px;
 }
-.party-button{
+
+.party-button {
     background: none;
     color: rgb(240, 235, 224);
 }
 
+/* data section */
+.data {
+    background-image: linear-gradient(rgb(248, 211, 217), transparent);
+    height: 200px;
+    margin: 120px;
+    text-align: center
+}
+
+.data-text {
+    font-size: 32px;
+    padding: 50px;
+}
+
+.data-red {
+    color: #F00;
+}
+
+.data-button {
+    border-radius: 5px;
+    background:#F00;
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    margin-left: auto;
+}
+/* coming soon */
+.coming-soon{
+    display: flex;
+    margin: 250px;
+}
+
+.coming-soon-red{
+    font-size: 48px;
+    color: #F00;
+}
+.img{
+    background-image: url("../resources/Group\ 44.png");
+    background-repeat: no-repeat;
+    border: 50px solid #ffffff;
+}
